@@ -4,9 +4,10 @@ import { useRive } from '@rive-app/react-canvas';
 
 export default function SimpleLoading() {
   const { rive, RiveComponent } = useRive({
-    src: './loading_box.riv',
+    src: './moringa.riv',
     stateMachines: "State Machine 1",
-    autoplay: true,
+    // autoplay: true,
+    artboard: "main",
   });
 
   return (
